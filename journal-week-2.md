@@ -1,16 +1,8 @@
-Things I learned in week two:
+Week two brought with it lots of new information. First of all it introduced us to the DOM, second we learned how HTML, css, and JavaScript interact to make a webpage, and finally we learned the importance of pseudocode and teamwork.
 
-1.) THE DOM!
-  a. It's not pronounced D-O-M
-  b. It is the "tree" framework that allows me to edit HTML elements in JavaScript (nodes)
-  c. Enables events to be added to elements
+The DOM! It's not pronounced the D-O-M, nor is it the name of a mob-boss, the DOM is the tree like framework that represents a webpage. Using the DOM we can edit HTML elements with JavaScript so that different css rules apply to them. This creates various effects like accordions, and switching from a view-mode to a grid-mode. 
 
-2.) How HTML, CSS, and JavaScript combine to make awesome websites.
-  a. HTML provides the content / general framework
-  b. CSS styles the frame work with rules. Uses css selectors.
-  c. JavaScript finds HTML elements/nodes and uses css selectors and events to change the appearance/layout of the page.
+These effects use HTML, Javascript, and css in order to work. The HTML provides a basic framework in which the content can be displayed. Css then uses css selectors to make "rules" which apply certain stylizations, like color or positioning to an HTML element. JavaScript uses the same css selectors in order to add events and event listeners to the HTML elements.  
 
-3.) The importance of pseudocode and team development.
-  a. Pseudocode allows problems to be broken down and written out step by step
-  b. Talking through a new project with a teams helps speed the process up.
-  c. Bouncing ideas off of others allows you to see problems in a new way. Also allows you to cement your knowledge by teaching others.
+A great way to figure out how to code a page is by breaking down the code in english and writing it out step-by-step. The main focus should be on breaking each step down as far as possible. It can be very helpful to do this with a group. Working with others allows you to see things that perhaps you would miss. It also allows you to cement your knowledge by teaching others concepts you have learned.  
+
