@@ -1,4 +1,5 @@
 ##How to Avoid Merge Conflicts When Starting An Assignment:
+Getting merge conflicts as you are starting an assignment is a bummer! Here are some steps to take before you begin to help prevent them.
 
 1. Create your Issue.
 2. Go to your TERMINAL and do a quick `git status` to make sure you have nothing you need to push to Github. 
