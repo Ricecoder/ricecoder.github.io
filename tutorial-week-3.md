@@ -11,6 +11,6 @@ Getting merge conflicts as you are starting an assignment is a bummer! Here are 
 
 
 Remember: 
-*`git status` is your friend. 
-*`git branch -l` lists the branches in your current repo and stars the branch you are on. 
+* `git status` is your friend. 
+* `git branch -l` lists the branches in your current repo and stars the branch you are on. 
 * If you do get a merge conflict start by trying to mentally figure out what could be causing it. It is much easier to fix a merge conflict if you know what went wrong.
