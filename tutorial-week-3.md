@@ -8,3 +8,9 @@ Getting merge conflicts as you are starting an assignment is a bummer! Here are 
 4. Now go back to your TERMINAL and do `git pull` to bring the new branch down to your LOCAL repository. 
 5. Do `git checkout <new branch name here>` to change to that branch. 
 6. You should now be good to go! 
+
+
+Remember: 
+* `git status` is your friend. 
+* `git branch -l` lists the branches in your current repo and stars the branch you are on. 
+* If you do get a merge conflict start by trying to mentally figure out what could be causing it. It is much easier to fix a merge conflict if you know what went wrong.
