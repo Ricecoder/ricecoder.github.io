@@ -33,7 +33,7 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-5. DON"T WORRY! The file did go through but you still have more work.
+5. DON'T WORRY! The file did go through but you still have more work.
 6. `git pull`
 7. You should now get a message that looks like this:
 ```
