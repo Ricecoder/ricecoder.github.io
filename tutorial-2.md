@@ -1,4 +1,5 @@
 ##Yo h5bp
+How to create a boilerplate using Yeoman and the `yo h5bp` command in terminal:
 
 1. In **terminal** in the folder you want to create your boiler plate in type `yo h5bp`
 2. You will get something that looks like this:
@@ -33,5 +34,5 @@
 3. You will see that it is asking you if you want documents included.  `(y/N)` You don't want them so just hit enter because N is capitalized and therefore the default.
 4. You can now use `git add` to add all of the files you just created. 
 
-###TOMORROW: Tutorial for converting main.css to main.scss
+
 
