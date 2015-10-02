@@ -1,5 +1,5 @@
 ##Yo h5bp
-How to create a boilerplate using Yeoman and the `yo h5bp` command in terminal:
+How to create a [boilerplate](https://html5boilerplate.com/) using [Yeoman](http://yeoman.io/) and the `yo h5bp` command in terminal:
 
 1. In **terminal** in the folder you want to create your boiler plate in type `yo h5bp`
 2. You will get something that looks like this:

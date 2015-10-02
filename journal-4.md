@@ -2,7 +2,9 @@
 
 Week 4 was the most challenging week thus far. We took all of our beautiful Blueprint sites that we had worked _so_ hard on and DESTROYED them. We deleted all of our html and rebuilt it using the new-to-us boilerplates and the `yo` command. YoHo! 
 
-Next we converted all of our css into sass. Same syntax but different arrangement (nesting). There was much frustration at this point as we navigated the `node-sass` command and avoided commiting our old css files. 
+Boilerplates are really cool templates for a basic website. They include an index.html, two css files in their own css folder, and two javascript files, not to mention a smorgasbord of other really cool files like a 404.html and an apple-touch-icon. And if the files were not enough most files contain helpful code that optimize your site and shorten the amount of things you need to add. SWEET!
+
+After deleting and rebuilding our html we converted all of our css into sass. Same syntax but different arrangement (nesting). There was much frustration at this point as we navigated the `node-sass` command and avoided commiting our old css files. 
 
 _Then_ we tackled our javascript, converting it all to jQuery. This wasn't too terrible as jquery is simpler than javascript but it was still frustrating when previous working functions no longer worked. 
 
