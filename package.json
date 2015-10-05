@@ -1,0 +1,19 @@
+{
+  "name": "ricecoder.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricecoder/ricecoder.github.io.git"
+  },
+  "author": "Lacey Rice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ricecoder/ricecoder.github.io/issues"
+  },
+  "homepage": "https://github.com/Ricecoder/ricecoder.github.io#readme"
+}
