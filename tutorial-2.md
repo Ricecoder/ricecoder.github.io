@@ -1,7 +1,7 @@
 ##Yo h5bp
 How to create a [boilerplate](https://html5boilerplate.com/) using [Yeoman](http://yeoman.io/) and the `yo h5bp` command in terminal:
 
-1. In **terminal** in the folder you want to create your boiler plate in type `yo h5bp`
+1. In **terminal** in the folder you want to create your boilerplate in type `yo h5bp`
 2. You will get something that looks like this:
 ```
 ~/D/T/src ❯❯❯ yo h5bp
@@ -31,8 +31,10 @@ How to create a [boilerplate](https://html5boilerplate.com/) using [Yeoman](http
    create tile-wide.png
    create tile.png
 ```
-3. You will see that it is asking you if you want documents included.  `(y/N)` You don't want them so just hit enter because N is capitalized and therefore the default.
+3. You will see that it is asking you if you want documents included.  `(y/N)` You don't need to download the documentation because it's available online so just hit enter (N is capitalized and therefore the default).
 4. You can now use `git add` to add all of the files you just created. 
+5. `git commit` and `git push` 
+6. You now have boilerplate files you can use.
 
 
 
