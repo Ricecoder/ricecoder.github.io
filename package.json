@@ -1,0 +1,29 @@
+{
+  "name": "ricecoder.github.io",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "browser-sync start --server --directory --files='tests.html'",
+    "sass": "node-sass --output-style expanded --output css/ scss/main.scss",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricecoder/ricecoder.github.io.git"
+  },
+  "author": "Lacey Rice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ricecoder/ricecoder.github.io/issues"
+  },
+  "homepage": "https://github.com/Ricecoder/ricecoder.github.io#readme",
+  "dependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "gulp": "^3.9.0"
+  }
+}
