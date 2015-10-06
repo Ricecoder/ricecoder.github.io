@@ -1,1 +1,6 @@
-This is where my journal will live....
+Topics to discuss:
+*APIS
+*JSONS
+*THE CHESSBOARD!!!
+*IFFES
+*scope
