@@ -8,8 +8,10 @@ At a restaurant a waiter (API) allows a diner (you/the user making the request f
 
 This is a very simple explaination but it gets the basic idea across.
 
-FOR TOMORROW: JSON FILES
+Now what format is that data most likely going to take? [JSON: JavaScript Object Notation](http://www.json.org/). These collect and present data in an orderly and easy to read format. They mostly consist of an object (dictionary) that is often contained in an array (list). The data is collected in key/value pairs which is universally recognized by most programming languages. JavaScript, or another programming language, is then used to write code that parses through the data.  
 
-FOR THE NEXT DAY: IIFES AND SCOPE
+
+
+
 
  
