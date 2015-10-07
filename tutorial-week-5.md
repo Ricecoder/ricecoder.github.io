@@ -41,14 +41,17 @@ Changes not staged for commit:
 ```
 4.) Now you can simply `git add`, `git commit`, and `git push`.
   
+###Extras:
+
+* You can `stash` more than one time. Each stash will be added to a `stash list`. You can view this list with `git stash list`
+```
+$ git stash list
+stash@{0}: WIP on branch: 036h37 added files
+stash@{1}: WIP on branch: 048gy35 added more files
+```
+To access the stash you just added simply do `git stash apply` but to access a previous stash `git stash apply stash@{#}` where `#` represents the number of the stash you want. 
 
 
 
-
-
-
-
-FOR TOMORROW:
-* a few different synarios 
 
 https://git-scm.com/book/en/v1/Git-Tools-Stashing
