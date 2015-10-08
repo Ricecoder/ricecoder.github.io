@@ -1,0 +1,22 @@
+{
+  "name": "ricecoder.github.io",
+  "version": "0.0.2",
+  "homepage": "https://github.com/Ricecoder/ricecoder.github.io",
+  "authors": [
+    "Lacey R. <laceyrice@me.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
