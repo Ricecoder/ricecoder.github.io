@@ -1,3 +1,24 @@
-#icon-menu {
-  background-color: red;
+.menu-icon {
+  position: relative;
+  display: inline-block;
+  width: 7vw;
+  text-indent: -999px;
+  float: right;
+
+}
+
+.border {
+  height: 30px;
+  border-top: 10px solid blue;
+  border-bottom: 10px solid blue;
+}
+
+.border::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  border-top: 10px solid blue;
+
 }
