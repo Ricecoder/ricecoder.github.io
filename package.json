@@ -1,12 +1,12 @@
 {
   "name": "ricecoder.github.io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
     "start": "browser-sync start --server --directory --files='src/index.html'",
-    "sass": "node-sass --output-style expanded --output css/ scss/main.scss",
+    "sass": "node-sass --output-style expanded --output src/css/ src/scss/main.scss"
   },
   "repository": {
     "type": "git",
