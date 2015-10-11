@@ -6,8 +6,6 @@ header {
     color: #fff;
   }
 
-
-
   .menu-icon {
     position: relative;
     display: inline-block;
@@ -35,4 +33,13 @@ header {
 
   }
 
+}
+
+.menu {
+  float: right;
+  display: inline-block;
+
+  a {
+    text-decoration: none;
+  }
 }
