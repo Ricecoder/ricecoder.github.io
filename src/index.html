@@ -3,16 +3,19 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Blog</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css">
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
+        <script src="../bower_components/modernizr/bin/modernizr"></script>
+        <svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,10 +23,69 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <header class="hero">
+          <!-- <img src="img/hero2.jpg"> -->
+          <nav class="hamburger-menu">
+      			<a href="#" class="menu-icon border"></a>
+      			<h1>Ricecoder</h1>
+      		</nav>
+
+      		<div class="text">
+      			<h2>Welcome to my Blog</h2>
+      			<p>So Much Wow!</p>
+      			<a href="btn btn-success">Contact!</a>
+      		</div>
+
+            <nav class="menu-list">
+              <a href="#">About</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Contact</a>
+            </nav>
+
+        </header>
+
+        <main class="container">
+
+          <section class="posts">
+            <div class="meta"> Oct 12, 2015 | <span class="author">Lacey Rice</a>
+              <a href="" class="comment">Leave a Comment</a>
+            </div>
+              <h3><a href="">This is my post</a></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum eu lorem a egestas. Pellentesque eros enim, posuere ac turpis non, dignissim fermentum orci. Integer eget elementum ex, et gravida nulla.
+                <a href="" class="more">Read more</a></p>
+          </section>
+
+          <section class="posts">
+            <div class="meta"> Oct 12, 2015 | <span class="author">Lacey Rice</a>
+              <a href="" class="comment">Leave a Comment</a>
+            </div>
+              <h3><a href="">This is my post</a></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum eu lorem a egestas. Pellentesque eros enim, posuere ac turpis non, dignissim fermentum orci. Integer eget elementum ex, et gravida nulla.
+                <a href="" class="more">Read more</a></p>
+          </section>
+
+          <section class="posts">
+            <div class="meta"> Oct 12, 2015 | <span class="author">Lacey Rice</a>
+              <a href="" class="comment">Leave a Comment</a>
+            </div>
+              <h3><a href="">This is my post</a></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum eu lorem a egestas. Pellentesque eros enim, posuere ac turpis non, dignissim fermentum orci. Integer eget elementum ex, et gravida nulla.
+                <a href="" class="more">Read more</a></p>
+          </section>
+
+        </main>
+
+        <footer>
+      	 <!-- something here eventually -->
+      	</footer>
+
+
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+
+
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 

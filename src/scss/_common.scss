@@ -1,0 +1,117 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+svg.icon {                //Invisible block that messes with my hero
+  display: none;
+}
+
+header {
+  position: relative;
+	top: 0;
+	width: 100%;
+	height: 448px;
+	margin-bottom: 20px;
+  // margin-left: 30px;
+
+  background: transparent url('../img/hero2.jpg') no-repeat;    //recieved help from a web developer on this part
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+
+
+  a {
+    text-decoration: none;
+  	font-weight: bold; color: #fff;
+    border-bottom: 1px solid rgba(198, 70, 61, 0);
+  }
+
+  a:hover {
+    border-bottom: 1px solid #500000;
+  	color: #500000;
+  }
+
+
+  h1 {                          //Ricecoder
+    text-align: center;
+    color: #fff;
+  }
+
+  .text {                       //H2 and p in the header
+    text-align: center;
+    color: #fff;
+  }
+
+  .menu-list {                  //menu
+    display: none;
+  }
+
+  .menu-list.active {           //menu active state
+    display: inherit;
+    background-color: #fff;
+    float: left;
+
+    a {                         //all links in header
+      text-decoration: none;
+      color: #fff;
+      display: block;
+    }
+  }
+
+
+
+  .menu-icon {                        //Hamburger Menu
+    position: relative;
+    display: inline-block;
+    width: 2vw;
+    text-indent: -999px;
+
+
+  }
+
+  .border {                           //Hamburger Menu
+    height: 15px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    border-radius: 5%;
+  }
+
+  .border::before {                   //Hamburger Menu
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid #fff;
+    border-radius: 5%;
+
+  }
+
+
+} //END OF HEADER
+
+//MAIN CONTAINER
+.container {
+  max-width: 960px;
+	margin: 0 auto;
+
+  .posts{                             //Posts section
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+
+    a {
+    text-decoration: none;
+  }
+
+    .comment {
+      padding: 5px;
+    }
+
+  }
+} //END OF MAIN CONTAINER
+
+footer{
+	padding: 10px 0;
+	color: #ccc;
+	background: #121417;
+}
