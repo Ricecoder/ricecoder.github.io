@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css">
         <!-- <link rel="stylesheet" href="css/normalize.css"> -->
         <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
         <script src="../bower_components/modernizr/bin/modernizr"></script>
         <svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg>
@@ -22,41 +23,62 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <main class="container">
-          <header>
-            <h1>Welcome to my Blog</h1>
 
-            <nav class="hamburger-menu">
-              <a href="#" class="menu-icon border"></a>
+        <header class="hero">
+          <!-- <img src="img/hero2.jpg"> -->
+          <nav class="hamburger-menu">
+      			<a href="#" class="menu-icon border"></a>
+      			<h1>Ricecoder</h1>
+      		</nav>
 
-          </header>
+      		<div class="text">
+      			<h2>Welcome to my Blog</h2>
+      			<p>So Much Wow!</p>
+      			<a href="btn btn-success">Contact!</a>
+      		</div>
 
-          <ul class="menu">
-            <li>
+            <nav class="menu-list">
               <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Portfilio</a>
-            </li>
-            <li>
-              <a href="#">Tutorials</a>
-            </li>
-            <li>
-              <a href="#">Blog Posts</a>
-            </li>
-          </ul>
+              <a href="#">Portfolio</a>
+              <a href="#">Contact</a>
+            </nav>
 
-        <section class="posts">
-          <ul class="posts">
-            <li>{{post}}</li>
-            <li>{{post}}</li>
-            <li>{{post}}</li>
-            <li>{{post}}</li>
-          </ul>  
+        </header>
 
+        <main class="container">
 
+          <section class="posts">
+            <div class="meta"> Oct 12, 2015 | <span class="author">Lacey Rice</a>
+              <a href="" class="comment">Leave a Comment</a>
+            </div>
+              <h3><a href="">This is my post</a></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum eu lorem a egestas. Pellentesque eros enim, posuere ac turpis non, dignissim fermentum orci. Integer eget elementum ex, et gravida nulla.
+                <a href="" class="more">Read more</a></p>
+          </section>
+
+          <section class="posts">
+            <div class="meta"> Oct 12, 2015 | <span class="author">Lacey Rice</a>
+              <a href="" class="comment">Leave a Comment</a>
+            </div>
+              <h3><a href="">This is my post</a></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum eu lorem a egestas. Pellentesque eros enim, posuere ac turpis non, dignissim fermentum orci. Integer eget elementum ex, et gravida nulla.
+                <a href="" class="more">Read more</a></p>
+          </section>
+
+          <section class="posts">
+            <div class="meta"> Oct 12, 2015 | <span class="author">Lacey Rice</a>
+              <a href="" class="comment">Leave a Comment</a>
+            </div>
+              <h3><a href="">This is my post</a></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum eu lorem a egestas. Pellentesque eros enim, posuere ac turpis non, dignissim fermentum orci. Integer eget elementum ex, et gravida nulla.
+                <a href="" class="more">Read more</a></p>
+          </section>
 
         </main>
+
+        <footer>
+      	 <!-- something here eventually -->
+      	</footer>
 
 
         <script src="../bower_components/jquery/dist/jquery.js"></script>
