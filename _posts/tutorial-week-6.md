@@ -1,4 +1,4 @@
-##How to Install Things with Bower
+##How to [Install Things with Bower](http://bower.io/#install-bower)
 
 1) In terminal type `bower install <ITEM TO BE INSTALLED ex:jquery, lodash, etc...> --save`
 
