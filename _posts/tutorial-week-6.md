@@ -4,7 +4,7 @@
 
 EX: `bower install jquery --save`
 
-2) Add link/script to your `index.html`
+2) Add link/script to your `index.html` with the path to your new file. 
 
 EX: ` <script src="bower_components/jquery/dist/jquery.js"></script>`
 
