@@ -1,8 +1,6 @@
 ##Journal Week 7
 
-Working in groups this week was both challenging and great. While the logistics of having multiple people working on one assignment at once made things a 
-nightmare at times I really enjoyed learning the git flow process. I found I became much more mindful of everything I 
-did because I knew that it effected not only my code but others' as well.
+Working in groups this week was both challenging and great. While the logistics of having multiple people working on one assignment at once made things a nightmare at times, I really enjoyed learning the git flow process. I found I became much more mindful of everything I did because I knew that it effected not only my code but others' as well.
 
 Being a team leader was very insightful. Having to focus on the big picture and not an individual task was a great exercise in how to view an assignment.
 Too often I focus on each individual task, connecting them when they are all complete, only to find out that things don't work as well together as I had hoped. 
@@ -19,19 +17,4 @@ All in all I found my experience working in groups to be rewarding. I learned a 
 collaborating with others on a task.
 
 
-###What it is like being a team leader.
 
-* Focus on the big picture.
-
-* Able to help with working through problems
-
-* Hard not being able to code.
-
-
-###What it was like working with a team leader.
-
-* Great to have someone to bounce ideas off of.
-
-* Allowed me to focus more on an individual task
-
-* Had more managable work load.
