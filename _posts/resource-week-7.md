@@ -8,3 +8,4 @@ On the left is a menu with references, cheatsheets, examples, and more. The main
 RegEx to test on example text which you can replace with your own. 
 
 There is also a video tutorial for how to use the site. 
+
